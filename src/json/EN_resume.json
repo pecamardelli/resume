@@ -11,11 +11,12 @@
     "address": {
       "street": "",
       "city": "San Rafael",
-      "state": "Mendoza",
+      "state": "Mendoza Province",
+      "country": "Argentina",
       "zip": "5600"
     },
     "website": "https://www.linkedin.com/in/pecamardelli",
-    "resumedownload": "https://www.linkedin.com/in/pecamardelli",
+    "resumeDownload": "/pdf/EN_resume.pdf",
     "social": [
       {
         "name": "linkedin",

@@ -12,28 +12,33 @@ import "./App.css";
 
 export default function App() {
   const [langKey, setLangKey] = useState("en");
-  const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
-    setResumeData(config.resume[langKey]);
-  }, [setResumeData, config.resume, langKey]);
+    document.title = config.lang[langKey].document.title;
+  }, [langKey]);
 
   return (
     <div className="App">
       <Header
-        data={resumeData.main}
+        data={config.resume[langKey].main}
         lang={config.lang[langKey]}
         setLang={setLangKey}
       />
-      <About data={resumeData.main} lang={config.lang[langKey]} />
-      <Resume data={resumeData.resume} lang={config.lang[langKey]} />
-      <Portfolio data={resumeData.portfolio} lang={config.lang[langKey]} />
-      <Testimonials
-        data={resumeData.testimonials}
+      <About data={config.resume[langKey].main} lang={config.lang[langKey]} />
+      <Resume
+        data={config.resume[langKey].resume}
         lang={config.lang[langKey]}
       />
-      <Contact data={resumeData.main} lang={config.lang[langKey]} />
-      <Footer data={resumeData.main} lang={config.lang[langKey]} />
+      <Portfolio
+        data={config.resume[langKey].portfolio}
+        lang={config.lang[langKey]}
+      />
+      <Testimonials
+        data={config.resume[langKey].testimonials}
+        lang={config.lang[langKey]}
+      />
+      <Contact data={config.resume[langKey].main} lang={config.lang[langKey]} />
+      <Footer data={config.resume[langKey].main} lang={config.lang[langKey]} />
     </div>
   );
 }

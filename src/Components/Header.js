@@ -3,11 +3,18 @@ import { Image } from "semantic-ui-react";
 
 class Header extends Component {
   render() {
+    if (this.props.lang) {
+      var nav = this.props.lang.header.nav;
+      var banner = this.props.lang.header.banner;
+    }
+
     if (this.props.data) {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
       var city = this.props.data.address.city;
+      var state = this.props.data.address.state;
+      var country = this.props.data.address.country;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
@@ -23,41 +30,41 @@ class Header extends Component {
       <header id="home">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            {this.props.lang.header.showNavigation}
+            {nav.showNavigation}
           </a>
           <a className="mobile-btn" href="#home" title="Hide navigation">
-            {this.props.lang.header.hideNavigation}
+            {nav.hideNavigation}
           </a>
 
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                {this.props.lang.header.home}
+                {nav.home}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#about">
-                {this.props.lang.header.about}
+                {nav.about}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#resume">
-                {this.props.lang.header.resume}
+                {nav.resume}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                {this.props.lang.header.works}
+                {nav.works}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
-                {this.props.lang.header.testimonials}
+                {nav.testimonials}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                {this.props.lang.header.contact}
+                {nav.contact}
               </a>
             </li>
             <li>
@@ -79,9 +86,12 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">
+              {banner.IAm} {name}.
+            </h1>
             <h3>
-              I'm a {city} based <span>{occupation}</span>. {description}.
+              {banner.salute} <span>{occupation}</span> {banner.based} {city},{" "}
+              {banner.townPreffix} {state}, {country}. {description}.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

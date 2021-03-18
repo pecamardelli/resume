@@ -1,12 +1,47 @@
 {
+  "document": {
+    "title": "CV de Pablo Camardelli"
+  },
+  "about": {
+    "profilePicAlt": "Foto de perfil de Pablo",
+    "title": "Acerca de mí",
+    "contactDetails": "Datos de contacto",
+    "downloadResume": "Descargar currículum"
+  },
+  "contact": {
+    "getInTouch": "Contacta conmigo.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "submitError": "Error: no se pudo enviar el mensaje",
+      "submitSuccess": "Gracias por enviarme tu mensaje!"
+    },
+    "widget": {
+      "title": "Datos de contacto",
+      "activity": {
+        "title": "Últimas actividades"
+      }
+    }
+  },
   "header": {
-    "showNavigation": "Mostrar navegación",
-    "hideNavigation": "Ocultar navegación",
-    "home": "Inicio",
-    "about": "Sobre mí",
-    "resume": "Currículum",
-    "works": "Experiencia",
-    "testimonials": "Testimonios",
-    "contact": "Contacto"
+    "nav": {
+      "showNavigation": "Mostrar navegación",
+      "hideNavigation": "Ocultar navegación",
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "resume": "Currículum",
+      "works": "Experiencia",
+      "testimonials": "Testimonios",
+      "contact": "Contacto"
+    },
+    "banner": {
+      "IAm": "Me llamo",
+      "salute": "Hola! Soy",
+      "based": "y vivo en",
+      "townPreffix": "una pequeña ciudad en la"
+    }
   }
 }

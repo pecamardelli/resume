@@ -1,12 +1,47 @@
 {
+  "document": {
+    "title": "Pablo Camardelli's awesome resume"
+  },
+  "about": {
+    "profilePicAlt": "Pablo's profile pic",
+    "title": "About Me",
+    "contactDetails": "Contact Details",
+    "downloadResume": "Download Resume"
+  },
+  "contact": {
+    "getInTouch": "Get in touch.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit",
+      "submitError": "Error: message not sent",
+      "submitSuccess": "Message sent! Thank you!"
+    },
+    "widget": {
+      "title": "Contact info",
+      "activity": {
+        "title": "Latest activities"
+      }
+    }
+  },
   "header": {
-    "showNavigation": "Show navigation",
-    "hideNavigation": "Hide navigation",
-    "home": "Home",
-    "about": "About",
-    "resume": "Resume",
-    "works": "Work",
-    "testimonials": "Testimonials",
-    "contact": "Contact"
+    "nav": {
+      "showNavigation": "Show navigation",
+      "hideNavigation": "Hide navigation",
+      "home": "Home",
+      "about": "About",
+      "resume": "Resume",
+      "works": "Work",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    },
+    "banner": {
+      "IAm": "I'm",
+      "salute": "Hi! I'm a",
+      "based": "based on",
+      "townPreffix": "a small town in"
+    }
   }
 }
