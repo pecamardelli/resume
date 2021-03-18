@@ -2,6 +2,11 @@
   "header": {
     "showNavigation": "Show navigation",
     "hideNavigation": "Hide navigation",
-    "home": "Home"
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "works": "Work",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   }
 }

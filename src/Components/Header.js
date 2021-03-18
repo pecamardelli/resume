@@ -42,22 +42,22 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                {this.props.lang.header.resume}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                {this.props.lang.header.works}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
-                Testimonials
+                {this.props.lang.header.testimonials}
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                {this.props.lang.header.contact}
               </a>
             </li>
             <li>

@@ -2,6 +2,11 @@
   "header": {
     "showNavigation": "Mostrar navegación",
     "hideNavigation": "Ocultar navegación",
-    "home": "Inicio"
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "resume": "Currículum",
+    "works": "Experiencia",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
   }
 }
