@@ -1,0 +1,212 @@
+{
+  "main": {
+    "name": "Pablo Camardelli",
+    "occupation": "JavaScript FullStack Developer",
+    "description": "My skills are focused on web apps development, such as Progressive Web Apps, Single Page Applications and so on. Some of my preferred tools are Nodejs, Reactjs, Express for RESTful APIs, GraphQL with Apollo, MySQL and MongoDB as relational and non-relational databases, respectively",
+    "image": "profilepic.jpg",
+    "bio": "I've been always said that I learn fast. In this profession you need to learn fast, I respond. I feel passion for computer science and everything that uses a microchip. I've started programming before I knew how to install an operating system when I was at college. Later on, I began to learn more and more while working at the IT department of various companies, leading several successful projects, most of them related to IT infrastructure and some others related to software development. Today, my skills are focused on developing web apps, using JavaScript with Nodejs, Reactjs, RESTful APIs, GraphQL with Apollo-server & client and relational and non-relational databases (MySQL and MongoDB respectively). I always give the best of me because I know that success can only be achieved by dedicating a huge amount of effort and will. I also love video games; I grew up with them and now I invest part of my time on making my own games like I dreamed when I was a young kid.",
+    "contactmessage": "Let's get in touch! I'll be glad to hear from you!",
+    "email": "pecamardelli@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "San Rafael",
+      "state": "Mendoza",
+      "zip": "5600"
+    },
+    "website": "https://www.linkedin.com/in/pecamardelli",
+    "resumedownload": "https://www.linkedin.com/in/pecamardelli",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/pecamardelli",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/pecamardelli",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "freelancer",
+        "url": "https://www.freelancer.com/u/pecamardelli",
+        "className": "fa fa-briefcase"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "And here is my toolbox. I've not included my infrastructure and hardware knowledge. That's part of my past now.",
+    "education": [
+      {
+        "school": "Mendoza University",
+        "degree": "Informatics Engineering",
+        "graduated": "Not graduated",
+        "description": "Started my studies in 2003 and then I had to quit only two years after. Started again in 2012 and, once again, I left it because of work in the last year of the course. And now I feel too old to do it again!"
+      },
+      {
+        "school": "4-087 Manuel I. Molina School",
+        "degree": "Bachelor with orientation in microenterprises. Or that's what I've been told...",
+        "graduated": "December 2002",
+        "description": "What can I say about high school? That sometimes I want to go back to thoose years!!"
+      }
+    ],
+    "work": [
+      {
+        "company": "iParking SAS",
+        "title": "FullStack Developer ",
+        "years": "January 2021 - Present",
+        "description": "More focused on backend than frontend. My job is to implement new features and bug fixing. The technologies that we use are: Nodejs, Express, Graphql, Apollo, MongoDB, Graphql-compose, Graphql-compose-mongoose, React, Redux and Material-UI. Deployment on AWS with Docker and Kubernetes."
+      },
+      {
+        "company": "Freelance",
+        "title": "Software Developer",
+        "years": "March 2019 - Present",
+        "description": "Developed many apps and programs for myself and several clients. I wrote C programs, PHP based management systems, Arduino Sketches and some other work with Node, React, GraphQL, etc. Check my Github account!"
+      },
+      {
+        "company": "Oxum Solarium",
+        "title": "Owner and Tech Manager",
+        "years": "April 2017 - December 2018",
+        "description": "This was my and my girlfriend's business. I selected the equipment, that is, the tan machines, installed them and also I developed a management system for the business. It was based on PHP, JavaScript, jQuery and Ajax calls, MySQL and Linux (Obviously :D). And not only that! I've installed a Raspberry PI on each tan machine and interfaced them to the management system. This way, we could set the tanning session duration from the system, turn on and off the machines and other cool stuff. This system was my baby. I also created the website based on Joomla! and VirtueMart and linked it to a MercadoPago account with a plugin."
+      },
+      {
+        "company": "Cable Televisora Color S.A.",
+        "title": "Lead IT Manager",
+        "years": "April 2012 - December 2017",
+        "description": "Responsible of IT department and the NOC. My job was to create and lead the new branch of ISP services of the company. I worked at the datacenter designing the network, selecting and installing equipment, guaranteeing quality of service and almost everything an IT guy can do in a room full of racks with servers, routers, CMTS (Yes, DOCSIS was the technology we used), switches, UPS... Wow... I've got stressed just to remember all thoose things."
+      },
+      {
+        "company": "Supercanal S.A.",
+        "title": "Senior Systems Analyst",
+        "years": "September 2009 - October 2010",
+        "description": "I was part of the IT crowd giving support to the internal users of the company. My responsibilities were simple: fix everything that had anything to do with IT. Install Linux based servers, manage Active Directory and Exchange Server, install Windows and Linux based workstations, structured cabling, configure printers and thoose kind of challenges."
+      },
+      {
+        "company": "Canal 7 Mendoza",
+        "title": "Junior Systems Analyst",
+        "years": "September 2009 - October 2010",
+        "description": "This was my first IT job! I was so excited! My duties were pretty much the same as I described above since both companies belong to the same corporation. I was a scared, shy and helpless IT guy giving his first steps on battle field of informatics and grouchy users!"
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "Nodejs",
+        "level": "80%"
+      },
+      {
+        "name": "GraphQL",
+        "level": "80%"
+      },
+      {
+        "name": "Reactjs",
+        "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "40%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "50%"
+      },
+      {
+        "name": "HTML5",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "70%"
+      },
+      {
+        "name": "MySQL",
+        "level": "80%"
+      },
+      {
+        "name": "C",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Object Oriented Programming",
+        "level": "75%"
+      },
+      {
+        "name": "Design Patterns",
+        "level": "75%"
+      },
+      {
+        "name": "Data Structure & Algorithms (C++)",
+        "level": "75%"
+      },
+      {
+        "name": "Arduino",
+        "level": "85%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "App Store",
+        "category": "A Node, React, MySQL based web app with several nice features. A good example of a RESTful API.",
+        "image": "app_store.jpg",
+        "url": "https://turdus-appstore-ft.herokuapp.com/"
+      },
+      {
+        "title": "Instaclone",
+        "category": "A clone of Instagram based on Node, GraphQL, MongoDB and React.",
+        "image": "instaclone.jpg",
+        "url": "https://turdus-instaclone-frontend.herokuapp.com/"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Pablo is the best! He helped me formulate the theory of relativity.",
+        "user": "Albert Einstein"
+      },
+      {
+        "text": "Very good chess player. I remember that I could only beat him once when we were kids.",
+        "user": "Bobby Fischer"
+      },
+      {
+        "text": "Sting like a bee. Pablo taught me that!",
+        "user": "Muhammad Ali"
+      },
+      {
+        "text": "Please, don't tell anyone that Yesterday is not mine... It's Pablo's!",
+        "user": "Paul McCartney"
+      }
+    ]
+  }
+}

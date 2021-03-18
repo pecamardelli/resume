@@ -1,61 +1,39 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
+import React, { useEffect, useState } from "react";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
+import Testimonials from "./Components/Testimonials";
+import Portfolio from "./Components/Portfolio";
+import config from "./config/config";
 
-class App extends Component {
+import "./App.css";
 
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
+export default function App() {
+  const [langKey, setLangKey] = useState("en");
+  const [resumeData, setResumeData] = useState({});
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
+  useEffect(() => {
+    setResumeData(config.resume[langKey]);
+  }, [setResumeData, config.resume, langKey]);
 
-  }
-
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount(){
-    this.getResumeData();
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Header
+        data={resumeData.main}
+        lang={config.lang[langKey]}
+        setLang={setLangKey}
+      />
+      <About data={resumeData.main} lang={config.lang[langKey]} />
+      <Resume data={resumeData.resume} lang={config.lang[langKey]} />
+      <Portfolio data={resumeData.portfolio} lang={config.lang[langKey]} />
+      <Testimonials
+        data={resumeData.testimonials}
+        lang={config.lang[langKey]}
+      />
+      <Contact data={resumeData.main} lang={config.lang[langKey]} />
+      <Footer data={resumeData.main} lang={config.lang[langKey]} />
+    </div>
+  );
 }
-
-export default App;
