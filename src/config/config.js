@@ -13,7 +13,7 @@ export const directories = {
   icons: `${imageDir}${iconDir}`,
   portfolio: `${imageDir}${portfolioDir}`,
   backgrounds: `${imageDir}${backgroundDir}`,
-  pdf: "/pdf",
+  pdf: "pdf",
 };
 
 export const languages = [
