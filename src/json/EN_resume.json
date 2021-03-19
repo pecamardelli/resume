@@ -16,7 +16,7 @@
       "zip": "5600"
     },
     "website": "https://www.linkedin.com/in/pecamardelli",
-    "resumeDownload": "/pdf/EN_resume.pdf",
+    "resumeDownload": "EN_resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -85,7 +85,7 @@
       {
         "company": "Canal 7 Mendoza",
         "title": "Junior Systems Analyst",
-        "years": "September 2009 - October 2010",
+        "years": "December 2007 - August 2009",
         "description": "This was my first IT job! I was so excited! My duties were pretty much the same as I described above since both companies belong to the same corporation. I was a scared, shy and helpless IT guy giving his first steps on battle field of informatics and grouchy users!"
       }
     ],
@@ -171,22 +171,10 @@
         "url": "https://turdus-instaclone-frontend.herokuapp.com/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Street Rod Remake",
+        "category": "This is a remake of the game Street Rod made with GameMakerStudio 2.",
+        "image": "street_rod_remake.jpg",
+        "url": "https://drive.google.com/drive/folders/18PPwnh7v67BqDvUAatm9UPdHyzJqqwSB?usp=sharing"
       }
     ]
   },
@@ -209,5 +197,25 @@
         "user": "Paul McCartney"
       }
     ]
-  }
+  },
+  "activities": [
+    {
+      "description": "I've been occupied doing my job but I managed to finish my last tiny project: The great InstaClone application! You probably seen it in my portfolio. Well, that's what I've been up to lately.",
+      "link": "https://turdus-instaclone-frontend.herokuapp.com/",
+      "linkText": "Check it out!",
+      "date": "March 2021"
+    },
+    {
+      "description": "Getting up to date with GraphQL. iParking is a pretty cool startup that offers a large set of features to manage parking sessions on the streets or a private parking lot. It also offers wallet services!",
+      "link": "https://ipkg.ml",
+      "linkText": "Take a look at it!",
+      "date": "January 2021"
+    },
+    {
+      "description": "Great courses given by Mosh Hamedani! He has a lot of courses to pick up! The JavaScript Bundle is awesome. It includes two courses of vanilla JS, one of Nodejs, one of Reactjs, another one of Angular 4+ and a complete mastery of SQL!",
+      "link": "https://codewithmosh.com",
+      "linkText": "You can see all of them here",
+      "date": "July 2020"
+    }
+  ]
 }

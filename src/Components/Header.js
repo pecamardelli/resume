@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
+import { languages } from "../config/config";
 
 class Header extends Component {
   render() {
@@ -67,20 +68,15 @@ class Header extends Component {
                 {nav.contact}
               </a>
             </li>
-            <li>
-              <Image
-                src="/images/gb_flag_icon.png"
-                className="lang-icon"
-                onClick={() => this.props.setLang("en")}
-              />
-            </li>
-            <li>
-              <Image
-                src="/images/Spain_flag_icon.png"
-                className="lang-icon"
-                onClick={() => this.props.setLang("es")}
-              />
-            </li>
+            {languages.map((lang, index) => (
+              <li key={index}>
+                <Image
+                  src={lang.icon}
+                  className="lang-icon"
+                  onClick={() => this.props.setLanguage(lang)}
+                />
+              </li>
+            ))}
           </ul>
         </nav>
 

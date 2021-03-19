@@ -2,10 +2,10 @@
   "main": {
     "name": "Pablo Camardelli",
     "occupation": "JavaScript FullStack Developer",
-    "description": "My skills are focused on web apps development, such as Progressive Web Apps, Single Page Applications and so on. Some of my preferred tools are Nodejs, Reactjs, Express for RESTful APIs, GraphQL with Apollo, MySQL and MongoDB as relational and non-relational databases, respectively",
+    "description": "Mis habilidades están centradas en el desarrollo de web apps, tales como PWAs, SPAs, etc. Algunas de mis herramientas preferidas para el desarrollo son: Nodejs, Reactjs, Express para RESTful APIs, GraphQL con Apollo, MySQL y MongoDB como motores de bases de datos. También tengo sólidos conocimientos de PHP y C, así como también de patrones de diesño, programación orientada a objetos, estructuras de datos y algoritmos.",
     "image": "profilepic.jpg",
-    "bio": "I've been always said that I learn fast. In this profession you need to learn fast, I respond. I feel passion for computer science and everything that uses a microchip. I've started programming before I knew how to install an operating system when I was at college. Later on, I began to learn more and more while working at the IT department of various companies, leading several successful projects, most of them related to IT infrastructure and some others related to software development. Today, my skills are focused on developing web apps, using JavaScript with Nodejs, Reactjs, RESTful APIs, GraphQL with Apollo-server & client and relational and non-relational databases (MySQL and MongoDB respectively). I always give the best of me because I know that success can only be achieved by dedicating a huge amount of effort and will. I also love video games; I grew up with them and now I invest part of my time on making my own games like I dreamed when I was a young kid.",
-    "contactmessage": "Let's get in touch! I'll be glad to hear from you!",
+    "bio": " Más de 13 años de experiencia en el mundo laboral de la informática me enseñaron que la vocación no decrece en una persona, sino todo lo contrario. Comencé en el año 2007 como Junior Systems Analyst en una gran empresa como es el Canal 7 Mendoza, donde me desempeñé como IT support al usuario interno.  Aprendí las bases de la informática en un ámbito empresarial y sumé  una gran cantidad de conocimientos y experiencia. Alterné trabajos de desarrollo de software con trabajos de campo en infraestructura y datacenter. Logré combinar todo lo aprendido hasta llegar a ser IT Manager en un ISP local de San Rafael, Mendoza. Allí puse de manifiesto mis aptitudes y mi expertise para llevar adelante la puesta en producción del headend de la empresa y el desarrollo de aplicaciones de control que fueron necesarias para la gestión de los equipos y los servicios. Hoy en día decidí cambiar de rumbo y me desempeño como JavaScript Full Stack Developer con Nodejs, Reactjs, RESTful APIs con Express, GraphQL con Apollo-server & client, MySQL y MongoDB como principales tecnologías. También soy retrogamer y dedico parte de mi tiempo a desarrollar videojuegos, algunos de ellos son remakes de juegos de mi niñez.",
+    "contactmessage": "!Contacta conmigo! Siempre estoy disponible para una charla amistosa y profesional.",
     "email": "pecamardelli@gmail.com",
     "phone": "",
     "address": {
@@ -16,7 +16,7 @@
       "zip": "CP 5600"
     },
     "website": "https://www.linkedin.com/in/pecamardelli",
-    "resumeDownload": "/pdf/ES_resume.pdf",
+    "resumeDownload": "ES_resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -36,57 +36,57 @@
     ]
   },
   "resume": {
-    "skillmessage": "And here is my toolbox. I've not included my infrastructure and hardware knowledge. That's part of my past now.",
+    "skillmessage": "Esta es mi caja de herramientas. Aquí muestro las tecnologías que manejo y que he usado.",
     "education": [
       {
-        "school": "Mendoza University",
-        "degree": "Informatics Engineering",
-        "graduated": "Not graduated",
-        "description": "Started my studies in 2003 and then I had to quit only two years after. Started again in 2012 and, once again, I left it because of work in the last year of the course. And now I feel too old to do it again!"
+        "school": "Universidad de Mendoza",
+        "degree": "Ingeniería en Informática",
+        "graduated": "No graduado",
+        "description": "Comencé mis estudios en el año 2003 pero tuve que dejar al año siguiente por motivos económicos. Tiempo después, en el año 2012 y ya con experiencia en IT, retomé los estudios hasta que finalmente tuve que volver a dejarlo apenas empezado el cursado del último año. Hoy me siento viejo para retomar por 3ra vez!"
       },
       {
-        "school": "4-087 Manuel I. Molina School",
-        "degree": "Bachelor with orientation in microenterprises. Or that's what I've been told...",
-        "graduated": "December 2002",
-        "description": "What can I say about high school? That sometimes I want to go back to thoose years!!"
+        "school": "Escuela 4-087 Manuel I. Molina",
+        "degree": "Bachiller con orientación en micro-emprendimientos. O eso me dijeron...",
+        "graduated": "Diciembre 2002",
+        "description": "¿Qué puedo decir de aquellos años de secundaria? ¡Que a veces los extraño!"
       }
     ],
     "work": [
       {
         "company": "iParking SAS",
         "title": "FullStack Developer ",
-        "years": "January 2021 - Present",
-        "description": "More focused on backend than frontend. My job is to implement new features and bug fixing. The technologies that we use are: Nodejs, Express, Graphql, Apollo, MongoDB, Graphql-compose, Graphql-compose-mongoose, React, Redux and Material-UI. Deployment on AWS with Docker and Kubernetes."
+        "years": "Enero 2021 - Presente",
+        "description": "Enfocado mayormente en backend, mi trabajo consiste en implementar nuevas mejoras a la app, refactorizar y optimizar códigos, encontrar y solucionar bugs, etc. Aquí empecé a manejar GraphQL y sólo puedo decir que no voy a extrañar a las RESTful APIs :D. Las tecnologías que utiliza esta startup son: Node, GraphQL, MongoDB, React, Redux, Material-UI, AWS, Docker, Kubernetes y Firebase."
       },
       {
         "company": "Freelance",
         "title": "Software Developer",
-        "years": "March 2019 - Present",
-        "description": "Developed many apps and programs for myself and several clients. I wrote C programs, PHP based management systems, Arduino Sketches and some other work with Node, React, GraphQL, etc. Check my Github account!"
+        "years": "Marzo 2019 - Presente",
+        "description": "Desarrollé aplicaciones para diversos clientes, algunas en C, otras en PHP, JavaScript, React. También hice algunas implementaciones de micro-controladores con Arduino y Raspberry PI. En mi cuenta de Github pueden verse todos mis códigos."
       },
       {
         "company": "Oxum Solarium",
         "title": "Owner and Tech Manager",
-        "years": "April 2017 - December 2018",
-        "description": "This was my and my girlfriend's business. I selected the equipment, that is, the tan machines, installed them and also I developed a management system for the business. It was based on PHP, JavaScript, jQuery and Ajax calls, MySQL and Linux (Obviously :D). And not only that! I've installed a Raspberry PI on each tan machine and interfaced them to the management system. This way, we could set the tanning session duration from the system, turn on and off the machines and other cool stuff. This system was my baby. I also created the website based on Joomla! and VirtueMart and linked it to a MercadoPago account with a plugin."
+        "years": "Abril 2017 - Diciembre 2018",
+        "description": "Este fue un negocio propio que mi novia y yo montamos en la Ciudad de Mendoza. Estuve a cargo de todo lo que tenía que ver con tecnología, desde seleccionar, comprar e instalar las máquinas de bronceado, realizar el cableado de la red eléctrica trifásica del local, diseñar y desarrollar el sistema de gestión integral del negocio y automatizar el funcionamiento de las cabinas solares mediante la instalación de un Raspberry PI 3 en cada una de ellas y su integración con el sistema. El sistema está basado en PHP, MySQL, JavaScript, jQuery y Ajax. También diseñe el sitio web del negocio en Joomla! y VirtueMart."
       },
       {
         "company": "Cable Televisora Color S.A.",
         "title": "Lead IT Manager",
-        "years": "April 2012 - December 2017",
-        "description": "Responsible of IT department and the NOC. My job was to create and lead the new branch of ISP services of the company. I worked at the datacenter designing the network, selecting and installing equipment, guaranteeing quality of service and almost everything an IT guy can do in a room full of racks with servers, routers, CMTS (Yes, DOCSIS was the technology we used), switches, UPS... Wow... I've got stressed just to remember all thoose things."
+        "years": "Abril 2012 - Diciembre 2017",
+        "description": "Cuando empecé a trabajar en esta empresa, la misma no ofecía servicios de ISP. Estuve a cargo del diseño y la puesta en marcha del headend para empezar a brindar el servicio de internet mediante red HFC y DOCSIS. Mis tareas abarcaban todo el funcionamiento del headend, desde instalación de servidores, virtualización, monitoreo, switching, routing, gestión de recursos de internet ante Lacnic, implementación de red BGP, configuración de red DOCSIS, CMTS, provisioning y, por supuesto, implementación de planes de ciberseguridad."
       },
       {
         "company": "Supercanal S.A.",
         "title": "Senior Systems Analyst",
-        "years": "September 2009 - October 2010",
-        "description": "I was part of the IT crowd giving support to the internal users of the company. My responsibilities were simple: fix everything that had anything to do with IT. Install Linux based servers, manage Active Directory and Exchange Server, install Windows and Linux based workstations, structured cabling, configure printers and thoose kind of challenges."
+        "years": "Septiembre 2009 - Octubre 2010",
+        "description": "Pertenecía al área de sistemas de la empresa, dando soporte al usuario interno. Mis responsabilidades eran simples: solucionar todos los problemas que tuvieran que ver con informática y, a veces, tecnología en general. La empresa contaba con más de 150 estaciones de trabajo basadas en Windows y Linux. En la parte de los servidores, se utilizaba Linux para servidor de internet, DHCP, OpenVPN y el sistema propio de gestión. Otros servidores corrían Windows server 2003 con Active Directory, Exchange Server y Citrix."
       },
       {
         "company": "Canal 7 Mendoza",
         "title": "Junior Systems Analyst",
-        "years": "September 2009 - October 2010",
-        "description": "This was my first IT job! I was so excited! My duties were pretty much the same as I described above since both companies belong to the same corporation. I was a scared, shy and helpless IT guy giving his first steps on battle field of informatics and grouchy users!"
+        "years": "Diciembre 2007 - Agosto 2009",
+        "description": "¡Este fue mi primer trabajo en IT! ¡Estaba muy emocionado! Las responsabilidades eran bastante similares a las que describí más arriba, en el trabajo de Supercanal. Ambas empresas pertenecían al mismo grupo. Aquí me forjé como profesional IT, a veces asustado, a veces estresado, pero siempre disfrutando de lo que hacía."
       }
     ],
     "skills": [
@@ -160,54 +160,62 @@
     "projects": [
       {
         "title": "App Store",
-        "category": "A Node, React, MySQL based web app with several nice features. A good example of a RESTful API.",
+        "category": "Es una App que intenta ser similar a Google Play Store en funcionalidad. Está basada en Node, React, MySQL, Bootstrap y posee las cosas básicas para poder ser llamada una App Store. Es un buen ejemplo de una RESTful API.",
         "image": "app_store.jpg",
         "url": "https://turdus-appstore-ft.herokuapp.com/"
       },
       {
         "title": "Instaclone",
-        "category": "A clone of Instagram based on Node, GraphQL, MongoDB and React.",
+        "category": "Un clon de Instagram que hice en uno de los cursos que tomé. La app se basa en Node, GraphQL, MongoDB, React, Semantic-UI entre otras cosas. Modifiqué el backend e incorporé graphql-compose, graphql-compose-mongoose y graphql-shield para llevar la escalabilidad y la complejidad de la app un poco más lejos.",
         "image": "instaclone.jpg",
         "url": "https://turdus-instaclone-frontend.herokuapp.com/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Street Rod Remake",
+        "category": "This is a remake of the game Street Rod made with GameMakerStudio 2.",
+        "image": "street_rod_remake.jpg",
+        "url": "https://drive.google.com/drive/folders/18PPwnh7v67BqDvUAatm9UPdHyzJqqwSB?usp=sharing"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Pablo is the best! He helped me formulate the theory of relativity.",
+        "text": "¡Pablo es el mejor! Me ayudó a formular la teoría de la relatividad.",
         "user": "Albert Einstein"
       },
       {
-        "text": "Very good chess player. I remember that I could only beat him once when we were kids.",
+        "text": "Muy buen ajedrecista. Recuerdo que sólo pude ganarle una vez cuando éramos chicos.",
         "user": "Bobby Fischer"
       },
       {
-        "text": "Sting like a bee. Pablo taught me that!",
+        "text": "Sting like a bee. Pablo me enseño eso.",
         "user": "Muhammad Ali"
       },
       {
-        "text": "Please, don't tell anyone that Yesterday is not mine... It's Pablo's!",
+        "text": "Por favor, no le digan a nadie que Yesterday no es mía... ¡Es de Pablo!",
         "user": "Paul McCartney"
       }
     ]
-  }
+  },
+  "activities": [
+    {
+      "description": "A pesar de estar ocupado con mi trabajo, pude terminar un pequeño proyecto: la gran aplicación InstaClone. Probablemente ya la hayan visto en mi portfolio. Bueno, eso es lo que he estado haciendo últimamente.",
+      "link": "https://turdus-instaclone-frontend.herokuapp.com/",
+      "linkText": "Mírenla aquí",
+      "date": "Marzo 2021"
+    },
+    {
+      "description": "Poniéndome al día con GraphQL. iParking es una excelente startup que ofrece una amplia gama de servicios para gestionar sesiones de estacionamiento en las calles de Mendoza o en estacionamientos privados. También ofrece servicios de billetera virtual.",
+      "link": "https://ipkg.ml",
+      "linkText": "Ir a iParking",
+      "date": "Enero 2021"
+    },
+    {
+      "description": "¡Excelentes cursos de Mosh Hamedani! Tiene muchísimas opciones para elegir. El pack de cursos de JavaScript es espectacular. Incluye dos cursos de vanilla JavaScript, uno de Nodejs, otro de React, otro de Angular 4 y uno muy completo de SQL. Con estos cursos aprendí el uso de varias tecnologías y me desoxidé un poco en desarrollo.",
+      "link": "https://codewithmosh.com",
+      "linkText": "Ver todos los cursos",
+      "date": "Julio 2020"
+    }
+  ]
 }

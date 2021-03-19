@@ -35,7 +35,8 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/backgrounds/header-background.jpg) no-repeat
+    top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -505,7 +506,7 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 
-  background: url(../images/overlay-bg.png) repeat;
+  background: url(../images/backgrounds/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -694,7 +695,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url(../images/backgrounds/testimonials-bg.jpg) no-repeat
+    center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;

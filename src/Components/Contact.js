@@ -7,14 +7,13 @@ class Contact extends Component {
     }
 
     if (this.props.data) {
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone = this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+      var name = this.props.data.main.name;
+      var city = this.props.data.main.address.city;
+      var state = this.props.data.main.address.state;
+      var zip = this.props.data.main.address.zip;
+      var email = this.props.data.main.email;
+      var message = this.props.data.main.contactmessage;
+      var activities = this.props.data.activities;
     }
 
     return (
@@ -118,29 +117,23 @@ class Contact extends Component {
             <div className="widget widget_tweets">
               <h4 className="widget-title">{contact.widget.activity.title}</h4>
               <ul id="twitter">
-                <li>
-                  <span>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b>
-                    <a href="#">2 Days Ago</a>
-                  </b>
-                </li>
-                <li>
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b>
-                    <a href="#">3 Days Ago</a>
-                  </b>
-                </li>
+                {activities.map((entry, index) => (
+                  <li key={index}>
+                    <span>
+                      {entry.description}{" "}
+                      {entry.link ? (
+                        <a href={entry.link} target="_blank">
+                          {entry.linkText}
+                        </a>
+                      ) : (
+                        ""
+                      )}
+                    </span>
+                    <b>
+                      <a href={null}>{entry.date}</a>
+                    </b>
+                  </li>
+                ))}
               </ul>
             </div>
           </aside>

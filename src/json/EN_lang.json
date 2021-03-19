@@ -1,6 +1,6 @@
 {
   "document": {
-    "title": "Pablo Camardelli's awesome resume"
+    "title": "Pablo's resume"
   },
   "about": {
     "profilePicAlt": "Pablo's profile pic",
@@ -43,5 +43,19 @@
       "based": "based on",
       "townPreffix": "a small town in"
     }
+  },
+  "footer": {
+    "copyright": "Copyright 2017 Tim Baker"
+  },
+  "portfolio": {
+    "title": "Check Out Some of My Works."
+  },
+  "resume": {
+    "education": "Education",
+    "work": "Work",
+    "skills": "Skills"
+  },
+  "testimonials": {
+    "title": "Client Testimonials"
   }
 }

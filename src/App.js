@@ -6,39 +6,31 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
-import config from "./config/config";
+import { languages } from "./config/config";
 
 import "./App.css";
 
 export default function App() {
-  const [langKey, setLangKey] = useState("en");
+  // Set spanish as default language
+  const [language, setLanguage] = useState(languages[0]);
 
   useEffect(() => {
-    document.title = config.lang[langKey].document.title;
-  }, [langKey]);
+    document.title = language ? language.text.document.title : "Pablo's Resume";
+  }, [language]);
 
   return (
     <div className="App">
       <Header
-        data={config.resume[langKey].main}
-        lang={config.lang[langKey]}
-        setLang={setLangKey}
+        data={language.resume.main}
+        lang={language.text}
+        setLanguage={setLanguage}
       />
-      <About data={config.resume[langKey].main} lang={config.lang[langKey]} />
-      <Resume
-        data={config.resume[langKey].resume}
-        lang={config.lang[langKey]}
-      />
-      <Portfolio
-        data={config.resume[langKey].portfolio}
-        lang={config.lang[langKey]}
-      />
-      <Testimonials
-        data={config.resume[langKey].testimonials}
-        lang={config.lang[langKey]}
-      />
-      <Contact data={config.resume[langKey].main} lang={config.lang[langKey]} />
-      <Footer data={config.resume[langKey].main} lang={config.lang[langKey]} />
+      <About data={language.resume.main} lang={language.text} />
+      <Resume data={language.resume.resume} lang={language.text} />
+      <Portfolio data={language.resume.portfolio} lang={language.text} />
+      <Testimonials data={language.resume.testimonials} lang={language.text} />
+      <Contact data={language.resume} lang={language.text} />
+      <Footer data={language.resume.main} lang={language.text} />
     </div>
   );
 }

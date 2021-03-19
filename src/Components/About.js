@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { directories } from "../config/config";
 
 class About extends Component {
   render() {
@@ -47,7 +48,11 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button" download>
+                  <a
+                    href={`${directories.pdf}/${resumeDownload}`}
+                    className="button"
+                    download
+                  >
                     <i className="fa fa-download"></i>
                     {about.downloadResume}
                   </a>

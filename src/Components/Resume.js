@@ -2,6 +2,10 @@ import React, { Component } from "react";
 
 class Resume extends Component {
   render() {
+    if (this.props.lang) {
+      var resume = this.props.lang.resume;
+    }
+
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
@@ -44,7 +48,7 @@ class Resume extends Component {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Education</span>
+              <span>{resume.education}</span>
             </h1>
           </div>
 
@@ -58,7 +62,7 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Work</span>
+              <span>{resume.work}</span>
             </h1>
           </div>
 
@@ -68,7 +72,7 @@ class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>{resume.skills}</span>
             </h1>
           </div>
 

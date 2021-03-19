@@ -1,6 +1,6 @@
 {
   "document": {
-    "title": "CV de Pablo Camardelli"
+    "title": "CV de Pablo"
   },
   "about": {
     "profilePicAlt": "Foto de perfil de Pablo",
@@ -43,5 +43,16 @@
       "based": "y vivo en",
       "townPreffix": "una pequeña ciudad en la"
     }
+  },
+  "footer": {
+    "copyright": "Copyright 2017 Tim Baker"
+  },
+  "portfolio": {
+    "title": "Y aquí pueden ver algunos de mis trabajos."
+  },
+  "resume": {
+    "education": "Educación",
+    "work": "Trabajos",
+    "skills": "Habilidades"
   }
 }
