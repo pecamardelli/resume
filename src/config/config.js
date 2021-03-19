@@ -3,7 +3,7 @@ import es_resume from "../json/ES_resume.json";
 import en_lang from "../json/EN_lang.json";
 import es_lang from "../json/ES_lang.json";
 
-const imageDir = "/images";
+const imageDir = "images";
 const iconDir = "/icons";
 const portfolioDir = "/portfolio";
 const backgroundDir = "/background";
