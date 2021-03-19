@@ -8,10 +8,11 @@ class Testimonials extends Component {
 
     if (this.props.data) {
       var testimonials = this.props.data.testimonials.map(function (
-        testimonials
+        testimonials,
+        index
       ) {
         return (
-          <li key={testimonials.user}>
+          <li key={index}>
             <blockquote>
               <p>{testimonials.text}</p>
               <cite>{testimonials.user}</cite>

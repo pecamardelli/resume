@@ -36,7 +36,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Esta es mi caja de herramientas. Aquí muestro las tecnologías que manejo y que he usado.",
+    "skillmessage": "Esta es mi caja de herramientas",
     "education": [
       {
         "school": "Universidad de Mendoza",
@@ -189,7 +189,7 @@
         "user": "Bobby Fischer"
       },
       {
-        "text": "Sting like a bee. Pablo me enseño eso.",
+        "text": "Sting like a bee. Pablo me enseñó eso.",
         "user": "Muhammad Ali"
       },
       {

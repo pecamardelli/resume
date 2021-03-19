@@ -325,10 +325,11 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 
 .bars {
-  width: 95%;
+  width: 80%;
   float: left;
   padding: 0;
   text-align: left;
+  margin-bottom: -40px !important;
 }
 .bars .skills {
   margin-top: 36px;
@@ -336,19 +337,26 @@ ul#nav li.current a {
 }
 .bars li {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   background: #ccc;
-  height: 42px;
+  height: 20px;
   border-radius: 3px;
 }
+.skill-message {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #333;
+}
 .bars li em {
-  font: 15px "opensans-bold", sans-serif;
+  font: 12px "opensans-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
   position: relative;
-  top: -36px;
+  top: -30px;
 }
 .bar-expand {
   position: absolute;
@@ -359,8 +367,8 @@ ul#nav li.current a {
   padding-right: 24px;
   background: #313131;
   display: inline-block;
-  height: 42px;
-  line-height: 42px;
+  height: 20px;
+  line-height: 25px;
   border-radius: 3px 0 0 3px;
 }
 /*
@@ -457,7 +465,7 @@ ul#nav li.current a {
 
 #portfolio {
   background: #ebeeee;
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 #portfolio h1 {
@@ -466,7 +474,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #333;
 }
 
 /* Portfolio Content */
@@ -752,10 +760,12 @@ call-to-action .button {
 }
 #testimonials blockquote cite {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   line-height: 18px;
-  color: #fff;
+  top: -15px !important;
+  position: relative !important;
+  color: #eee;
 }
 #testimonials blockquote cite:before {
   content: "\2014 \0020";
@@ -1034,7 +1044,7 @@ call-to-action .button {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #303030;
+  color: #eee;
   font-size: 14px;
   text-align: center;
   position: relative;
@@ -1042,7 +1052,7 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #525252;
+  color: #eee;
 }
 footer a:hover,
 footer a:focus {
@@ -1067,7 +1077,7 @@ footer .copyright li:before {
   content: "\2022";
   padding-left: 10px;
   padding-right: 10px;
-  color: #095153;
+  color: #eee;
 }
 footer .copyright li:first-child:before {
   display: none;

@@ -32,3 +32,7 @@ export const languages = [
     icon: `${directories.icons}/gb_flag_icon.png`,
   },
 ];
+
+export const config = {
+  contactForm: false,
+};

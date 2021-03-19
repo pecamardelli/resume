@@ -6,7 +6,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
-import { languages } from "./config/config";
+import { config, languages } from "./config/config";
 
 import "./App.css";
 
@@ -29,7 +29,9 @@ export default function App() {
       <Resume data={language.resume.resume} lang={language.text} />
       <Portfolio data={language.resume.portfolio} lang={language.text} />
       <Testimonials data={language.resume.testimonials} lang={language.text} />
-      <Contact data={language.resume} lang={language.text} />
+      {config.contactForm && (
+        <Contact data={language.resume} lang={language.text} />
+      )}
       <Footer data={language.resume.main} lang={language.text} />
     </div>
   );
