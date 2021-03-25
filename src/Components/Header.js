@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
-import { languages } from "../config/config";
+import { config, languages } from "../config/config";
 
 class Header extends Component {
   render() {
@@ -63,11 +63,13 @@ class Header extends Component {
                 {nav.testimonials}
               </a>
             </li>
-            <li>
-              <a className="smoothscroll" href="#contact">
-                {nav.contact}
-              </a>
-            </li>
+            {config.contactForm && (
+              <li>
+                <a className="smoothscroll" href="#contact">
+                  {nav.contact}
+                </a>
+              </li>
+            )}
             {languages.map((lang, index) => (
               <li key={index}>
                 <Image

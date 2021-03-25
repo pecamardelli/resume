@@ -51,6 +51,152 @@
         "description": "¿Qué puedo decir de aquellos años de secundaria? ¡Que a veces los extraño!"
       }
     ],
+    "courses": [
+      {
+        "title": "Microsoft Active Directory 2003/2008",
+        "imparted": "Intertron",
+        "date": "Marzo 2009",
+        "description": "Recibí esta capacitación cuando trabajaba como IT Support en Supercanal.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": ""
+      },
+      {
+        "title": "Microsoft Exchange Server 2003/2008",
+        "imparted": "Intertron",
+        "date": "Marzo 2009",
+        "description": "También recibí esta capacitación junto con la de Active Directory.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": ""
+      },
+      {
+        "title": "Arris C4/C4c configuration and Operation Training",
+        "imparted": "BCD Rosario",
+        "date": "Septiembre 2012",
+        "description": "Mi primera capacitación en CMTS y DOCSIS en general.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/12MkHk8Ph-ebezDBh9HCsFSmiwqJpqNSS/view?usp=sharing"
+      },
+      {
+        "title": "Arris C4 ICMTS Operation Class",
+        "imparted": "BCD Rosario",
+        "date": "Noviembre 2012",
+        "description": "Otra capacitación en CMTS, esta vez basada en profundidad en el modelo C4.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1JcPuH94rarNKYOiq4ytrniWYaKYfXz8p/view?usp=sharing"
+      },
+      {
+        "title": "Arris C4 ICMTS Operation Class",
+        "imparted": "BCD Rosario",
+        "date": "Octubre 2013",
+        "description": "Misma capacitación que la mencionada anteriormente aunque con más profundidad de conocimientos y prácticas.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1whnSGmfdJmd24GnUEPNVMt9S2Y7nWcaX/view?usp=sharing"
+      },
+      {
+        "title": "Ubiquiti AirMax Certified Admin",
+        "imparted": "Prozcenter",
+        "date": "Marzo 2014",
+        "description": "Certificación radio-enlaces Ubiquiti impartida por Prozcenter Buenos Aires.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1olCiTeQ86QNKBFseXWvw5KIBry8Uqpi-/view?usp=sharing"
+      },
+      {
+        "title": "Mikrotik MTCNA",
+        "imparted": "Prozcenter",
+        "date": "Agosto 2014",
+        "description": "Certificación como MikroTik Network Associate impartida por Prozcenter Buenos Aires.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1MN8pX_Cnhr7-U4RQ6F6t_wmmpWQgw01-/view?usp=sharing"
+      },
+      {
+        "title": "Arris E6D201: E6000 CER Operations",
+        "imparted": "BCD Rosario",
+        "date": "Julio 2017",
+        "description": "Capacitación en profundidad sobre el funcionamiento y operación del CMTS Arris E6000.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1crFLJyyOSozRDlYausDIYcgcOxp0xVc7/view?usp=sharing"
+      },
+      {
+        "title": "Scrum Foundation Professional Certificate",
+        "imparted": "Certiprof",
+        "date": "Julio 2020",
+        "description": "Certificación en Scrum expedida por Certiprof.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1GlJ7VjvK3gWKnsvO2FS5KiEWo1ojf2Pf/view?usp=sharing"
+      },
+      {
+        "title": "DevOps Essentials Professional Certificate",
+        "imparted": "Certiprof",
+        "date": "Agosto 2020",
+        "description": "Certificación en DevOps expedida por Certiprof.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1liijNZcLdbpq2DOJt5cGCxQxyNL1fWYq/view?usp=sharing"
+      },
+      {
+        "title": "The Complete Node.js Course",
+        "imparted": "CodeWithMosh - Teachable.io",
+        "date": "Septiembre 2020",
+        "description": "Curso completo de Node.js con diseño de backend incluído.",
+        "githubRepo": "https://github.com/pecamardelli/learning.git",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1WuzpOplGBQO3mb3Bv566VpuA3RO3Q77n/view?usp=sharing"
+      },
+      {
+        "title": "Mastering React",
+        "imparted": "CodeWithMosh - Teachable.io",
+        "date": "Septiembre 2020",
+        "description": "Curso de maestría en React.js con diseño de frontend que utiliza la API del backend hecho en el curso de Node.js.",
+        "githubRepo": "https://github.com/pecamardelli/learning.git",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1OMCWVTdv4vfRLX9E5LObRbsPSdX1E8AW/view?usp=sharing"
+      },
+      {
+        "title": "The Ultimate JavaScript Mastery Series - Part I",
+        "imparted": "CodeWithMosh - Teachable.io",
+        "date": "Octubre 2020",
+        "description": "Primera parte del curso de JavaScript que tomé para repasar conocimientos y ponerme al día.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1G362rF-tTR6OjUQmr1VdECAuxFWcDzFn/view?usp=sharing"
+      },
+      {
+        "title": "The Ultimate JavaScript Mastery Series - Part II",
+        "imparted": "CodeWithMosh - Teachable.io",
+        "date": "Octubre 2020",
+        "description": "Segunda parte del curso de JavaScript.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1WuzpOplGBQO3mb3Bv566VpuA3RO3Q77n/view?usp=sharing"
+      },
+      {
+        "title": "Kanban Foundation KIKF",
+        "imparted": "Certiprof & Kanban Institute",
+        "date": "Noviembre 2020",
+        "description": "Certificación en Kanban expedida por Certiprof y The Kanban Institute.",
+        "githubRepo": "",
+        "appLink": "",
+        "certLink": "https://drive.google.com/file/d/1jnaWVrW3I5ngVQSiNetAeIeD-7-Ricwp/view?usp=sharing"
+      },
+      {
+        "title": "Crea un Instagram con Node, GraphQL, React y Heroku",
+        "imparted": "Udemy",
+        "date": "marzo 2021",
+        "description": "Curso introductorio a GraphQL en el cual se desarrolla una app similar a Instagram con funcionalidades básicas.",
+        "githubRepo": "https://github.com/pecamardelli/instaclone.git",
+        "appLink": "https://turdus-instaclone-frontend.herokuapp.com/",
+        "certLink": "https://drive.google.com/file/d/1780gUwJ0-esbLsRQxlfzsfbk8ZEuxNfc/view?usp=sharing"
+      }
+    ],
     "work": [
       {
         "company": "iParking SAS",
@@ -175,6 +321,18 @@
         "category": "This is a remake of the game Street Rod made with GameMakerStudio 2.",
         "image": "street_rod_remake.jpg",
         "url": "https://drive.google.com/drive/folders/18PPwnh7v67BqDvUAatm9UPdHyzJqqwSB?usp=sharing"
+      },
+      {
+        "title": "React Pet Shop",
+        "category": "Esta es una SPA basada en React y CSS",
+        "image": "pet_store.jpg",
+        "url": "https://pecamardelli.github.io/pet-store-page"
+      },
+      {
+        "title": "React React Green Gross System",
+        "category": "Una tienda de frutas y vegetales que implementa Bing Maps",
+        "image": "green_gross_system.jpg",
+        "url": "https://pecamardelli.github.io/green-gross-system-page/"
       }
     ]
   },

@@ -22,6 +22,49 @@ class Resume extends Component {
         );
       });
 
+      var courses = this.props.data.courses.map((course, index) => {
+        return (
+          <div key={index}>
+            <h3>{course.title}</h3>
+            <p className="info">
+              {course.imparted} <span>&bull;</span>
+              <em className="date">{course.date}</em>
+              {course.certLink && (
+                <React.Fragment>
+                  <span>&bull;</span>
+                  <em className="">
+                    <a href={course.certLink} target="_blank">
+                      {resume.viewCert}
+                    </a>
+                  </em>
+                </React.Fragment>
+              )}
+              {course.githubRepo && (
+                <React.Fragment>
+                  <span>&bull;</span>
+                  <em className="">
+                    <a href={course.githubRepo} target="_blank">
+                      {resume.githubRepo}
+                    </a>
+                  </em>
+                </React.Fragment>
+              )}
+              {course.appLink && (
+                <React.Fragment>
+                  <span>&bull;</span>
+                  <em className="">
+                    <a href={course.appLink} target="_blank">
+                      {resume.appLink}
+                    </a>
+                  </em>
+                </React.Fragment>
+              )}
+            </p>
+            <p>{course.description}</p>
+          </div>
+        );
+      });
+
       var work = this.props.data.work.map(function (work) {
         return (
           <div key={work.company}>
@@ -58,6 +101,20 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">{education}</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row courses">
+          <div className="three columns header-col">
+            <h1>
+              <span>{resume.courses}</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">{courses}</div>
             </div>
           </div>
         </div>

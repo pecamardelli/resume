@@ -287,6 +287,7 @@ ul#nav li.current a {
 #resume h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
+  line-height: 40px !important;
 }
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
@@ -300,6 +301,7 @@ ul#nav li.current a {
 }
 
 .education,
+.courses,
 .work {
   margin-bottom: 48px;
   padding-bottom: 24px;

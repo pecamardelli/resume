@@ -11,7 +11,7 @@ class Contact extends Component {
       var city = this.props.data.main.address.city;
       var state = this.props.data.main.address.state;
       var zip = this.props.data.main.address.zip;
-      var email = this.props.data.main.email;
+      //var email = this.props.data.main.email;
       var message = this.props.data.main.contactmessage;
       var activities = this.props.data.activities;
     }

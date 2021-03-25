@@ -33,7 +33,7 @@
       "home": "Inicio",
       "about": "Sobre mí",
       "resume": "Currículum",
-      "works": "Experiencia",
+      "works": "Portfolio",
       "testimonials": "Testimonios",
       "contact": "Contacto"
     },
@@ -52,7 +52,11 @@
   },
   "resume": {
     "education": "Educación",
-    "work": "Trabajos",
+    "courses": "Cursos y Certificaciones",
+    "viewCert": "Ver certificado",
+    "githubRepo": "Repositorio en Github",
+    "appLink": "Ver App",
+    "work": "Experiencia Laboral",
     "skills": "Habilidades"
   }
 }

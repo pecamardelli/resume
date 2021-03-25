@@ -33,7 +33,7 @@
       "home": "Home",
       "about": "About",
       "resume": "Resume",
-      "works": "Work",
+      "works": "Portfolio",
       "testimonials": "Testimonials",
       "contact": "Contact"
     },
@@ -52,6 +52,10 @@
   },
   "resume": {
     "education": "Education",
+    "courses": "Courses and Certificates",
+    "viewCert": "View certificate",
+    "githubRepo": "Github Repo",
+    "appLink": "App Link",
     "work": "Work",
     "skills": "Skills"
   },
